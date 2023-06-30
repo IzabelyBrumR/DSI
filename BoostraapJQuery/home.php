@@ -1,21 +1,12 @@
-<?php
-require_once './shared/header.php';
-?>
-<div class="row">
-    <div class="col-md-4"></div>
-    <div class="row" style="border: 2px solid green">
-        <div class="mb-3 mt-3">
-            <label for="email" class="form-label">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Insira seu email:" name="email">
-        </div>
-        <div class="mb-3 mt-3">
-            <label for="senha" class="form-label">Senha:</label>
-            <input type="password" class="form-control" id="senha" 
-                   placeholder="Insira sua senha:" name="senha">
-        </div>
-    </div>
-    <div class="col-md-4"></div>
-</div>
-<?php
-require_once './shared/footer.php';
-?>
+<!DOCTYPE html>
+<html>
+    <?php
+    require_once './shared/header.php';
+    ?>
+    <h3>Sobre o site!!!</h3>
+    <p class="text-bg-info">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et consequat orci. Nunc rutrum, turpis tincidunt maximus laoreet, libero ligula euismod ligula, vitae tincidunt nulla ipsum quis odio. Nullam mi leo, malesuada id ex vel, facilisis tristique sem. In laoreet mattis risus, quis vestibulum odio congue a. Nam pulvinar justo eget sollicitudin aliquet. Donec purus orci, gravida et congue in, elementum id augue. Integer viverra nisi id tellus pulvinar mollis. 
+    </p>
+    <?php
+    require_once './shared/footer.php';
+    ?>
